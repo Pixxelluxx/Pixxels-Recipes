@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace pixxrecipe
+namespace PixxelsRecipes
 {
     public class pixxrecipe : Mod
     {
@@ -24,6 +24,7 @@ namespace pixxrecipe
             ModRecipe recipe = new ModRecipe(this);
             recipe.AddIngredient(ItemID.TatteredCloth, 6);
             recipe.AddIngredient(ItemID.Wood, 20);
+            recipe.anyWood = true;
             recipe.AddTile(TileID.Sawmill);
             recipe.SetResult(ItemID.TinkerersWorkshop);
             recipe.AddRecipe();
@@ -50,6 +51,15 @@ namespace pixxrecipe
             recipe.AddIngredient(ItemID.Wire, 5);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(ItemID.Wrench);
+            recipe.AddRecipe();
+            
+            //SlimeStaff
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.Wood, 20);
+            recipe.anyWood = true;
+            recipe.AddIngredient(ItemID.Gel, 60);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.SlimeStaff);
             recipe.AddRecipe();
         }
     }
