@@ -1,3 +1,0 @@
-displayName = Pixxels Recipes
-author = Pixxelluxx
-version = 1.0
