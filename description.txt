@@ -1,0 +1,13 @@
+Pixxels Recipes is a Mod to Add different Recipes for Vanilla Items, like the Tinkerers Workshop,
+
+Currently Adds:
+
+- 1 Custom Item
+ - An "Minion Counter" which shows your amount of Minion Slots and summoned Minions (But not Sentries ATM)
+ 
+- 5 Recipes
+ - Tinkers Workshop
+ - Slime Staff
+ - Wrench (Red only atm)
+ - Wire
+ - Hellforge (inspired by the Adamantite/Titanium one)

@@ -1,0 +1,4 @@
+displayName = Pixxels Recipes
+author = Pixxelluxx
+version = 1.11
+homepage = https://forums.terraria.org/index.php?threads/pixxels-recipes.110904/
